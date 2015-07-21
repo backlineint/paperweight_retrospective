@@ -8,6 +8,8 @@
 
     <!-- Bootstrap -->
     <link href="stylesheets/styles.css" rel="stylesheet">
+    <!-- Lightbox -->
+    <link href="stylesheets/lightbox.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,13 +50,13 @@
   </div>
   <div class="row">
     <div class="col-xs-6 col-sm-3">
-      <a data-toggle="modal" href="#test-modal" class="thumbnail">
+      <a href="images/jonah.png" class="thumbnail" data-lightbox="screenshots" data-title="Lightbox Caption">
         <img class="img-responsive" src="images/jonah.png" />
         <div class="caption">This is the title</div>
       </a>
     </div>
     <div class="col-xs-6 col-sm-3">
-      <a href="#" class="thumbnail">
+      <a href="images/jonah.png" class="thumbnail" data-lightbox="screenshots" data-title="Lightbox Caption">
       <img class="img-responsive" src="images/jonah.png" />
     </a>
     </div>
@@ -75,5 +77,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/lightbox.min.js"></script>
   </body>
 </html>
