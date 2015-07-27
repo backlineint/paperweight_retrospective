@@ -27,6 +27,13 @@ nav {
     margin-bottom: 10px;
   }
 }
+#contributors {
+	.contributor {
+		border-radius: 50%;
+		border: 10px solid teal;
+		padding: 10px;
+	}
+}
 
 @media (min-width: $screen-sm-min) {
   .intro {
