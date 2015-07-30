@@ -28,10 +28,17 @@ nav {
   }
 }
 #contributors {
-	.contributor {
+	.contributor img {
 		border-radius: 50%;
+	}
+	.contributor img:hover {
 		border: 10px solid teal;
 		padding: 10px;
+		transition: .3s;
+	}
+	.contributor-credit {
+		text-align: center;
+		margin-bottom: 40px;
 	}
 }
 

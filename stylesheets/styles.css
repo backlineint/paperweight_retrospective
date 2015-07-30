@@ -8570,14 +8570,23 @@ nav {
 }
 
 /* line 31, ../sass/styles.scss */
-#contributors .contributor {
+#contributors .contributor img {
   border-radius: 50%;
+}
+/* line 34, ../sass/styles.scss */
+#contributors .contributor img:hover {
   border: 10px solid teal;
   padding: 10px;
+  transition: .3s;
+}
+/* line 39, ../sass/styles.scss */
+#contributors .contributor-credit {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 @media (min-width: 768px) {
-  /* line 39, ../sass/styles.scss */
+  /* line 46, ../sass/styles.scss */
   .intro {
     margin-top: 100px;
   }
